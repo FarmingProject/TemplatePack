@@ -1,0 +1,34 @@
+{
+	"id": "wheat_seeds",
+	"drops": [
+		{
+			"item": "wheat",
+			"chance": 1
+		},
+		{
+			"item": "wheat",
+			"chance": 0.5
+		},
+		{
+			"item": "wheat",
+			"chance": 0.25
+		},
+		{
+			"item": "wheat",
+			"chance": 0.125
+		}
+	],
+	"quality": {
+		"1": 0.8,
+		"2": 0.15,
+		"3": 0.05 
+	},
+	"stages": 7,
+	"daysPerStage": 1,
+	"seasons": {
+		"spring": true,
+		"summer": true,
+		"fall": true,
+		"winter": false
+	}
+}

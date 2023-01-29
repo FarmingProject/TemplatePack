@@ -1,0 +1,36 @@
+{
+	"id": "wheat",
+	"name": "wheat.name",
+	"description": "wheat.description",
+	"rarity": "common",
+	"tags": {
+		"edible": {
+			"effects": {
+				"health": 20,
+				"saturation": 0.6,
+				"qualityBonus": {
+					"1": {
+						"health": 5,
+						"saturation": 0.2
+					},
+					"2": {
+						"health": 10,
+						"saturation": 0.4
+					},
+					"3": {
+						"health": 15,
+						"saturation": 0.6
+					}
+				}
+			}
+		},
+		"sellable": {
+			"worth": 10,
+			"qualityBonus": {
+				"1": 0,
+				"2": 10,
+				"3": 20
+			}
+		}
+	}
+}

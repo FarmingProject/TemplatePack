@@ -1,0 +1,30 @@
+{
+	"item_id": "potato",
+	"drops": [
+		{
+			"item": "potato",
+			"chance": 2
+		},
+		{
+			"item": "potato",
+			"chance": 0.75
+		},
+		{
+			"item": "potato",
+			"chance": 0.5
+		},
+		{
+			"item": "potato",
+			"chance": 0.25
+		}
+	],
+	"rarity": "Common",
+	"stages": 4,
+	"daysPerStage": 2,
+	"seasons": {
+		"spring": false,
+		"summer": true,
+		"fall": true,
+		"winter": false
+	}
+}

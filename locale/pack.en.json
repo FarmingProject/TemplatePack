@@ -1,0 +1,20 @@
+{
+	"item": {
+		"wheat": {
+			"name": "Wheat",
+			"description": "A bundle of wheat."
+		},
+		"wheat_seeds": {
+			"name": "Wheat Seeds",
+			"description": "A handful of wheat seeds."
+		},
+		"carrot": {
+			"name": "Carrot",
+			"description": "A carrot."
+		},
+		"potato": {
+			"name": "Potato",
+			"description": "A potato."
+		}
+	}
+}
