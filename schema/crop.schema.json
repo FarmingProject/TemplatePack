@@ -1,0 +1,20 @@
+{
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "string",
+			"description": "The unique identifier for the crop that should match an item with the plantable attribute. Should be lowercased and match the folder name."
+		},
+		"drops": {
+			"type": "array",
+			"description": "The items that can be dropped by this crop. With their probability of dropping.",
+			"items": {
+				"$ref": "loottable.schema.json"
+			}
+		}
+	},
+	"required": [
+		"id",
+		"drops"
+	]
+}

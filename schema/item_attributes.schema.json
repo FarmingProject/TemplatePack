@@ -1,0 +1,44 @@
+{
+	"type": "object",
+	"properties": {
+		"consumable": {
+			"type": "object",
+			"description": "This attribute declares the item as a consumable.",
+			"properties": {
+				"type": {
+					"type": "string",
+					"description": "The type of consumable.",
+					"enum": [
+						"food",
+						"drink",
+						"potion",
+						"splash_potion"
+					]
+				},
+				"effects": {
+					"type": "array",
+					"description": "An array of effects that the item will apply to the target.",
+					"items": {
+						"$ref": "effect.schema.json"
+					}
+				}
+			},
+			"required": [
+				"type"
+			]
+		},
+		"sellable": {
+			"type": "object",
+			"description": "This attribute declares the item as sellable.",
+			"properties": {
+				"value": {
+					"type": "integer",
+					"description": "The worth of the item."
+				}
+			},
+			"required": [
+				"value"
+			]
+		}
+	}
+}

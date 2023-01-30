@@ -4,40 +4,31 @@
 			"fileMatch": [
 				"crops/*/*.json"
 			],
-			"schema": {
-				"type": "object",
-				"properties": {
-					"id": {
-						"type": "string",
-						"description": "The unique identifier for the crop that should match an item with the plantable attribute. Should be lowercased and match the folder name."
-					},
-					"drops": {
-						"type": "array",
-						"description": "The items that can be dropped by this crop. With their probability of dropping.",
-						"items": {
-							"type": "object",
-							"properties": {
-								"item": {
-									"type": "string",
-									"description": "The unique id of the item that can be dropped."
-								},
-								"chance": {
-									"type": "number",
-									"description": "The probability of the item dropping. Should be between 0 and 1."
-								}
-							},
-							"required": [
-								"item",
-								"chance"
-							]
-						}
-					},
-				},
-				"required": [
-					"id",
-					"drops",
-				]
-			}
+			"url": "./schema/crop.schema.json"
+		},
+		{
+			"fileMatch": [
+				"items/*/*.json"
+			],
+			"url": "./schema/item.schema.json"
+		},
+		{
+			"fileMatch": [
+				"recipes/*/*.json"
+			],
+			"url": "./schema/recipe.schema.json"
+		},
+		{
+			"fileMatch": [
+				"seasons/*/*.json"
+			],
+			"url": "./schema/season.schema.json"
+		},
+		{
+			"fileMatch": [
+				"shops/*/*.json"
+			],
+			"url": "./schema/shop.schema.json"
 		}
 	]
 }

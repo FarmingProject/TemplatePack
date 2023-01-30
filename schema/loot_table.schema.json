@@ -1,0 +1,21 @@
+{
+	"type": "object",
+	"properties": {
+		"item": {
+			"type": "string",
+			"description": "The unique id of the item that can be dropped."
+		},
+		"chance": {
+			"type": "number",
+			"description": "The probability of the item dropping. Should be a decimal between 0 and 1 (inclusive), where 0 is 0% and 1 is 100%. You may use a whole number greater than 1 to have multiple of the same item dropping."
+		},
+		"extra_attributes": {
+			"type": "object",
+			"description": "Extra attributes that are passed into to the item constructor when it spawns."
+		}
+	},
+	"required": [
+		"item",
+		"chance"
+	]
+}

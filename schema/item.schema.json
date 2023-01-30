@@ -1,0 +1,25 @@
+{
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "string",
+			"description": "The unique identifier for the crop that should match an item with the plantable attribute. Should be lowercased and match the folder name."
+		},
+		"name": {
+			"type": "string",
+			"description": "Either the name of the item or (preferably) the location of the item's name in the localization file."
+		},
+		"description": {
+			"type": "string",
+			"description": "Either the description of the item or (preferably) the location of the item's description in the localization file."
+		},
+		"attributes": {
+			"$ref": "item_attributes.schema.json"
+		}
+	},
+	"required": [
+		"id",
+		"name",
+		"description"
+	]
+}

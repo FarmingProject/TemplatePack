@@ -3,24 +3,31 @@
 	"name": "wheat.name",
 	"description": "wheat.description",
 	"attributes": {
-		"edible": {
-			"effects": {
-				"stamina": 20,
-				"qualityBonus": {
-					"1": {
-						"stamina": 5
-					},
-					"2": {
-						"stamina": 10
-					},
-					"3": {
-						"stamina": 15
+		"consumable": {
+			"type": "food",
+			"effects": [
+				{
+					"stat": "stamina",
+					"amount": 20,
+					"bonus": {
+						"property": "quality",
+						"values": {
+							"1": {
+								"amount": 25
+							},
+							"2": {
+								"amount": 30
+							},
+							"3": {
+								"amount": 45
+							}
+						}
 					}
 				}
-			}
+			]
 		},
 		"sellable": {
-			"worth": 10,
+			"value": 10,
 			"qualityBonus": {
 				"1": 0,
 				"2": 10,

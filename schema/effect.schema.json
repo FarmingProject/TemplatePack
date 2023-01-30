@@ -1,0 +1,62 @@
+{
+	"type": "object",
+	"properties": {
+		"stat": {
+			"type": "string",
+			"description": "The stat that the effect will be applied to."
+		},
+		"amount": {
+			"type": "integer",
+			"description": "The amount of the stat that the effect will be applied to."
+		},
+		"duration": {
+			"type": "integer",
+			"description": "The duration of the effect in seconds."
+		},
+		"bonus": {
+			"type": "object",
+			"description": "Given a pro5t4rrrrrrrrrrrrrrrrrrrrrrrrrrrrrperty name that exists on the item, this will override the effect amount.",
+			"properties": {
+				"property": {
+					"type": "string",
+					"description": "The name of the property on the item."
+				},
+				"values": {
+					"type": "object",
+					"description": "A map of property values to effect amounts.",
+					"additionalProperties": {
+						"type": "object",
+						"properties": {
+							"amount": {
+								"type": "integer",
+								"description": "The amount of the effect that will be applied (ovverides the effect amount)."
+							},
+							"duration": {
+								"type": "integer",
+								"description": "The duration of the effect in seconds (overrides the effect duration)."
+							}
+						},
+						"minProperties": 1
+					}
+				}
+			},
+			"required": [
+				"property"
+			],
+			"minProperties": 2,
+			"maxProperties": 3
+		},
+		"playerOnly": {
+			"type": "boolean",
+			"description": "If true, the effect will only be applied to the player."
+		},
+		"playerImmune": {
+			"type": "boolean",
+			"description": "If true, the player will be immune to the effect."
+		}
+	},
+	"required": [
+		"stat",
+		"amount"
+	]
+}
