@@ -1,5 +1,5 @@
 {
-	"item_id": "potato",
+	"id": "potato",
 	"drops": [
 		{
 			"item": "potato",
@@ -18,7 +18,6 @@
 			"chance": 0.25
 		}
 	],
-	"rarity": "Common",
 	"stages": 4,
 	"daysPerStage": 2,
 	"seasons": {

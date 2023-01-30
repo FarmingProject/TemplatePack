@@ -1,0 +1,16 @@
+{
+	"id": "strength",
+	"name": "strength.name",
+	"description": "strength.description",
+	"tiers": 3,
+	"effects": [
+		{
+			"stat": "strength",
+			"amount": {
+				"1": 10,
+				"2": 20,
+				"3": 30
+			}
+		}
+	]
+}

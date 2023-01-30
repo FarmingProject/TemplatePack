@@ -1,5 +1,5 @@
 {
-	"item": {
+	"items": {
 		"wheat": {
 			"name": "Wheat",
 			"description": "A bundle of wheat."
@@ -15,6 +15,16 @@
 		"potato": {
 			"name": "Potato",
 			"description": "A potato."
+		}
+	},
+	"effects": {
+		"swiftness": {
+			"name": "Swiftness",
+			"description": "Increases movement speed."
+		},
+		"strength": {
+			"name": "Strength",
+			"description": "Increases tool damage."
 		}
 	}
 }

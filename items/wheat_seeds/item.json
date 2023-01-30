@@ -1,0 +1,18 @@
+{
+	"id": "wheat_seeds",
+	"name": "wheat_seeds.name",
+	"description": "wheat_seeds.description",
+	"attributes": {
+		"plantable": {
+			"crop": "wheat"
+		},
+		"sellable": {
+			"worth": 10,
+			"qualityBonus": {
+				"1": 0,
+				"2": 10,
+				"3": 20
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"name": "Default Pack",
+	"description": "The default pack for the game. Do not remove this pack.",
+	"version": "1",
+	"author": "The Developers",
+	"pack_id": "vanilla"
+}

@@ -1,11 +1,15 @@
 {
-	"id": "wheat",
-	"name": "wheat.name",
-	"description": "wheat.description",
+	"id": "carrot",
+	"name": "carrot.name",
+	"description": "carrot.description",
 	"attributes": {
 		"edible": {
 			"effects": {
 				"stamina": 20,
+				"swiftness": {
+					"duration": 60,
+					"strength": 1
+				},
 				"qualityBonus": {
 					"1": {
 						"stamina": 5
@@ -14,15 +18,19 @@
 						"stamina": 10
 					},
 					"3": {
-						"stamina": 15
+						"stamina": 15,
+						"swiftness": {
+							"duration": 60,
+							"strength": 2
+						}
 					}
 				}
 			}
 		},
 		"sellable": {
-			"worth": 10,
+			"value": 10,
 			"qualityBonus": {
-				"1": 0,
+				"1": 5,
 				"2": 10,
 				"3": 20
 			}

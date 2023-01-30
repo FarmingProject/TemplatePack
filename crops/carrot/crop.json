@@ -1,20 +1,20 @@
 {
-	"id": "wheat",
+	"id": "carrot",
 	"drops": [
 		{
-			"item": "wheat",
+			"item": "carrot",
 			"chance": 1
 		},
 		{
-			"item": "wheat",
+			"item": "carrot",
 			"chance": 0.5
 		},
 		{
-			"item": "wheat",
+			"item": "carrot",
 			"chance": 0.25
 		},
 		{
-			"item": "wheat",
+			"item": "carrot",
 			"chance": 0.125
 		}
 	],
@@ -23,8 +23,8 @@
 		"2": 0.15,
 		"3": 0.05 
 	},
-	"stages": 7,
-	"daysPerStage": 1,
+	"stages": 5,
+	"daysPerStage": 2,
 	"seasons": {
 		"spring": true,
 		"summer": true,
