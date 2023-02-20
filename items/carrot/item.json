@@ -3,37 +3,33 @@
 	"name": "carrot.name",
 	"description": "carrot.description",
 	"attributes": {
-		"edible": {
-			"effects": {
-				"stamina": 20,
-				"swiftness": {
-					"duration": 60,
-					"strength": 1
-				},
-				"qualityBonus": {
-					"1": {
-						"stamina": 5
-					},
-					"2": {
-						"stamina": 10
-					},
-					"3": {
-						"stamina": 15,
-						"swiftness": {
-							"duration": 60,
-							"strength": 2
-						}
-					}
+		"food": {
+			"stamina": 20,
+			"eatingSeconds": 3,
+			"bonus": {
+				"property": "quality",
+				"changes": "stamina",
+				"values": {
+					"1": 5,
+					"2": 10,
+					"3": 15
 				}
 			}
 		},
 		"sellable": {
 			"value": 10,
-			"qualityBonus": {
-				"1": 5,
-				"2": 10,
-				"3": 20
+			"bonus": {
+				"property": "quality",
+				"changes": "value",
+				"values": {
+					"1": 5,
+					"2": 10,
+					"3": 15
+				}
 			}
+		},
+		"plantable": {
+			"crop": "carrot"
 		}
 	}
 }

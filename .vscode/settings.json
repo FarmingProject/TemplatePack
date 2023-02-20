@@ -29,6 +29,12 @@
 				"shops/*/*.json"
 			],
 			"url": "./schema/shop.schema.json"
+		},
+		{
+			"fileMatch": [
+				"effects/*/*.json"
+			],
+			"url": "./schema/effect.schema.json"
 		}
 	]
 }

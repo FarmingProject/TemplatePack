@@ -21,5 +21,6 @@
 		"id",
 		"name",
 		"description"
-	]
+	],
+	"additionalProperties": false
 }

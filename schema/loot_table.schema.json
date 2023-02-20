@@ -11,11 +11,12 @@
 		},
 		"extra_attributes": {
 			"type": "object",
-			"description": "Extra attributes that are passed into to the item constructor when it spawns."
+			"description": "Extra attributes that are passed into the item constructor when it spawns."
 		}
 	},
 	"required": [
 		"item",
 		"chance"
-	]
+	],
+	"additionalProperties": false
 }

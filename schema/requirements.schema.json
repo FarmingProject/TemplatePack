@@ -1,0 +1,17 @@
+{
+	"type": "object",
+	"properties": {
+		"seasons": {
+			"$ref": "seasons.schema.json"
+		},
+		"year": {
+			"description": "The year this becomes available.",
+			"type": "integer",
+			"minimum": 0
+		},
+		"weekdays": {
+			"$ref": "weekdays.schema.json"
+		}
+	},
+	"additionalProperties": false
+}

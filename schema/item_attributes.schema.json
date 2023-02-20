@@ -1,6 +1,23 @@
 {
 	"type": "object",
 	"properties": {
+		"plantable": {
+			"type": "object",
+			"description": "This attribute declares the item as plantable.",
+			"properties": {
+				"crop": {
+					"type": "string",
+					"description": "The id of the crop that will be planted."
+				},
+				"requires": {
+					"$ref": "requirements.schema.json"
+				}
+			},
+			"required": [
+				"crop"
+			],
+			"additionalProperties": false
+		},
 		"consumable": {
 			"type": "object",
 			"description": "This attribute declares the item as a consumable.",
@@ -16,16 +33,42 @@
 					]
 				},
 				"effects": {
-					"type": "array",
-					"description": "An array of effects that the item will apply to the target.",
-					"items": {
-						"$ref": "effect.schema.json"
-					}
+					"$ref": "effects.schema.json"
 				}
 			},
 			"required": [
 				"type"
-			]
+			],
+			"additionalProperties": false
+		},
+		"food": {
+			"type": "object",
+			"description": "This attribute declares the item as food.",
+			"properties": {
+				"stamina": {
+					"type": "integer",
+					"description": "The amount of stamina the item will restore."
+				},
+				"eatingSeconds": {
+					"type": "number",
+					"description": "The amount of time it takes to eat the item.",
+					"default": 3
+				},
+				"drops": {
+					"type": "array",
+					"description": "An array of items that will drop when the item is eaten.",
+					"items": {
+						"$ref": "loot_table.schema.json"
+					}
+				},
+				"bonus": {
+					"$ref": "bonus.schema.json"
+				}
+			},
+			"required": [
+				"stamina"
+			],
+			"additionalProperties": false
 		},
 		"sellable": {
 			"type": "object",
@@ -33,12 +76,38 @@
 			"properties": {
 				"value": {
 					"type": "integer",
-					"description": "The worth of the item."
+					"description": "How many coins the item is worth."
+				},
+				"bonus": {
+					"$ref": "bonus.schema.json"
 				}
 			},
 			"required": [
 				"value"
-			]
+			],
+			"additionalProperties": false
+		},
+		"purchasable": {
+			"type": "object",
+			"description": "This attribute declares the item as purchasable.",
+			"properties": {
+				"value": {
+					"type": "integer",
+					"description": "How many coins the item costs."
+				},
+				"requires": {
+					"$ref": "requirements.schema.json"
+				},
+				"maximum": {
+					"type": "integer",
+					"description": "The maximum number of this item that can be purchased daily.",
+					"minimum": 1
+				}
+			},
+			"required": [
+				"value"
+			],
+			"additionalProperties": false
 		}
 	}
 }

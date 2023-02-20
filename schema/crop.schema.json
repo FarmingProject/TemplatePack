@@ -9,12 +9,29 @@
 			"type": "array",
 			"description": "The items that can be dropped by this crop. With their probability of dropping.",
 			"items": {
-				"$ref": "loottable.schema.json"
+				"$ref": "loot_table.schema.json"
 			}
+		},
+		"stages": {
+			"type": "integer",
+			"description": "The number of stages this crop has. Must match the number of textures in the crop's folder.",
+			"default": 4
+		},
+		"daysPerStage": {
+			"type": "integer",
+			"description": "The number of days it takes for this crop to grow a stage.",
+			"default": 1
+		},
+		"seasons": {
+			"$ref": "seasons.schema.json"
 		}
 	},
 	"required": [
 		"id",
-		"drops"
-	]
+		"drops",
+		"stages",
+		"daysPerStage",
+		"seasons"
+	],
+	"additionalProperties": false
 }

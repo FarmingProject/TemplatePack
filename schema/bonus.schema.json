@@ -1,0 +1,31 @@
+{
+	"type": "object",
+	"description": "Given a property name that exists on the item, this will override the effect amount.",
+	"properties": {
+		"changes": {
+			"type": "string",
+			"description": "The property to change with the new value."
+		},
+		"property": {
+			"type": "string",
+			"description": "The name of the property on the item to check with.",
+			"enum": [
+				"quality"
+			]
+		},
+		"values": {
+			"type": "object",
+			"description": "A map of property values to effect amounts.",
+			"additionalProperties": {
+				"type": "integer",
+				"minimum": 0
+			}
+		}
+	},
+	"required": [
+		"property",
+		"changes",
+		"values"
+	],
+	"additionalProperties": false
+}

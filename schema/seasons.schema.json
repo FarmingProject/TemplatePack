@@ -1,0 +1,28 @@
+{
+	"type": "object",
+	"description": "The seasons that this object is availble in.",
+	"properties": {
+		"spring": {
+			"type": "boolean",
+			"description": "Whether this can be used in the spring.",
+			"default": false
+		},
+		"summer": {
+			"type": "boolean",
+			"description": "Whether this can be used in the summer.",
+			"default": false
+		},
+		"fall": {
+			"type": "boolean",
+			"description": "Whether this can be used in the fall.",
+			"default": false
+		},
+		"winter": {
+			"type": "boolean",
+			"description": "Whether this can be used in the winter.",
+			"default": false
+		}
+	},
+	"minProperties": 1,
+	"additionalProperties": false
+}

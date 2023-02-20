@@ -1,0 +1,43 @@
+{
+	"description": "The weekdays this is available.",
+	"type": "object",
+	"properties": {
+		"monday": {
+			"description": "Is this available on Mondays?",
+			"type": "boolean",
+			"default": true
+		},
+		"tuesday": {
+			"description": "Is this available on Tuesday?",
+			"type": "boolean",
+			"default": true
+		},
+		"wednesday": {
+			"description": "Is this available on Wednesday?",
+			"type": "boolean",
+			"default": true
+		},
+		"thursday": {
+			"description": "Is this available on Thursday?",
+			"type": "boolean",
+			"default": true
+		},
+		"friday": {
+			"description": "Is this available on Friday?",
+			"type": "boolean",
+			"default": true
+		},
+		"saturday": {
+			"description": "Is this available on Saturday?",
+			"type": "boolean",
+			"default": true
+		},
+		"sunday": {
+			"description": "Is this available on Sunday?",
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"minProperties": 1,
+	"additionalProperties": false
+}

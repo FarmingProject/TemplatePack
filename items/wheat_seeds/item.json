@@ -7,11 +7,15 @@
 			"crop": "wheat"
 		},
 		"sellable": {
-			"worth": 10,
-			"qualityBonus": {
-				"1": 0,
-				"2": 10,
-				"3": 20
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 10,
+					"2": 20,
+					"3": 30
+				}
 			}
 		}
 	}

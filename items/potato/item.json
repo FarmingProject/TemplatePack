@@ -2,35 +2,34 @@
 	"id": "potato",
 	"name": "potato.name",
 	"description": "potato.description",
-	"rarity": "common",
 	"attributes": {
-		"edible": {
-			"effects": {
-				"health": 20,
-				"saturation": 0.6,
-				"qualityBonus": {
-					"1": {
-						"health": 5,
-						"saturation": 0.2
-					},
-					"2": {
-						"health": 10,
-						"saturation": 0.4
-					},
-					"3": {
-						"health": 15,
-						"saturation": 0.6
-					}
+		"food": {
+			"stamina": 20,
+			"eatingSeconds": 3,
+			"bonus": {
+				"property": "quality",
+				"changes": "stamina",
+				"values": {
+					"1": 5,
+					"2": 10,
+					"3": 15
 				}
 			}
 		},
 		"sellable": {
-			"worth": 10,
-			"qualityBonus": {
-				"1": 0,
-				"2": 10,
-				"3": 20
+			"value": 10,
+			"bonus": {
+				"property": "quality",
+				"changes": "value",
+				"values": {
+					"1": 5,
+					"2": 10,
+					"3": 15
+				}
 			}
+		},
+		"plantable": {
+			"crop": "potato"
 		}
 	}
 }

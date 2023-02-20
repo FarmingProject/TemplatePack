@@ -6,7 +6,8 @@
 	"effects": [
 		{
 			"stat": "speed",
-			"amount": {
+			"duration": 60,
+			"amounts": {
 				"1": 10,
 				"2": 20,
 				"3": 30
