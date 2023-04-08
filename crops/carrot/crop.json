@@ -18,11 +18,6 @@
 			"chance": 0.125
 		}
 	],
-	"quality": {
-		"1": 0.8,
-		"2": 0.15,
-		"3": 0.05 
-	},
 	"stages": 5,
 	"daysPerStage": 2,
 	"seasons": {

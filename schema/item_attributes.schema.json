@@ -108,6 +108,46 @@
 				"value"
 			],
 			"additionalProperties": false
+		},
+		"harvestDrop": {
+			"type": "object",
+			"description": "This attribute declares the item as a harvest drop.",
+			"properties": {
+				"quality": {
+					"type": "object",
+					"description": "The percentage chance of the crop being each quality.",
+					"properties": {
+						"1": {
+							"type": "number",
+							"description": "The percentage chance of the crop being tier 1",
+							"default": 0.5
+						},
+						"2": {
+							"type": "number",
+							"description": "The percentage chance of the crop being silver quality.",
+							"default": 0.3
+						},
+						"3": {
+							"type": "number",
+							"description": "The percentage chance of the crop being gold quality.",
+							"default": 0.1
+						},
+						"4": {
+							"type": "number",
+							"description": "The percentage chance of the crop being iridium quality.",
+							"default": 0.05
+						}
+					},
+					"required": [
+						"1",
+						"2",
+						"3"
+					],
+					"additionalProperties": false
+				}
+			},
+			"additionalProperties": false
 		}
-	}
+	},
+	"additionalProperties": false
 }

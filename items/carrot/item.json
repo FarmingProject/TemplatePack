@@ -30,6 +30,13 @@
 		},
 		"plantable": {
 			"crop": "carrot"
+		},
+		"harvestDrop": {
+			"quality": {
+				"1": 0.8,
+				"2": 0.15,
+				"3": 0.05
+			}	
 		}
 	}
 }
