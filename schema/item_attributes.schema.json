@@ -156,11 +156,21 @@
 					"type": "integer",
 					"description": "Relative spawn weight of the foragable compared to others.",
 					"default": 5
+				},
+				"type": {
+					"type": "string",
+					"description": "Type of forable, plant or bug.",
+					"enum": [
+						"bug",
+						"plant"
+					],
+					"default": "plant"
 				}
 			},
 			"required": [
 				"spawnWeight"
-			]
+			],
+			"additionalProperties": false
 		}
 	},
 	"additionalProperties": false
