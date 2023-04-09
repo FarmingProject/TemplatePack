@@ -147,6 +147,20 @@
 				}
 			},
 			"additionalProperties": false
+		},
+		"foragable": {
+			"type": "object",
+			"description": "Declares the item to spawn as a foragable",
+			"properties": {
+				"spawnWeight": {
+					"type": "integer",
+					"description": "Relative spawn weight of the foragable compared to others.",
+					"default": 5
+				}
+			},
+			"required": [
+				"spawnWeight"
+			]
 		}
 	},
 	"additionalProperties": false
