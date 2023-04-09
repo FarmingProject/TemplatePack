@@ -1,0 +1,15 @@
+[
+	{
+		"ingredients": [
+			{
+				"item": "carrot_potion",
+				"quantity": 1
+			},
+			{
+				"item": "ginger",
+				"quantity": 1
+			}
+		],
+		"output": "advanced_carrot_potion"
+	}
+]

@@ -14,9 +14,9 @@
 		},
 		{
 			"fileMatch": [
-				"recipes/*/*.json"
+				"recipes/*.json"
 			],
-			"url": "./schema/recipe.schema.json"
+			"url": "./schema/recipes.schema.json"
 		},
 		{
 			"fileMatch": [

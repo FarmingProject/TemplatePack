@@ -159,7 +159,7 @@
 				},
 				"type": {
 					"type": "string",
-					"description": "Type of forable, plant or bug.",
+					"description": "Type of foragable, plant or bug.",
 					"enum": [
 						"bug",
 						"plant"
