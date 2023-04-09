@@ -1,7 +1,7 @@
 {
-	"id": "carrot",
-	"name": "carrot.name",
-	"description": "carrot.description",
+	"id": "cayenne",
+	"name": "Cayenne Pepper",
+	"description": "Outside of being used to make a dish spicy, it is said to detoxify the body. ",
 	"attributes": {
 		"food": {
 			"stamina": 20,
@@ -29,7 +29,7 @@
 			}
 		},
 		"plantable": {
-			"crop": "carrot"
+			"crop": "cayenne"
 		}
 	}
 }

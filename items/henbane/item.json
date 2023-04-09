@@ -1,7 +1,7 @@
 {
-	"id": "potato",
-	"name": "potato.name",
-	"description": "potato.description",
+	"id": "henbane",
+	"name": "Henbane",
+	"description": "While the flower is pretty, it’s poisonous if not used properly. It can be used to create a variety of useful medicines and sedatives.",
 	"attributes": {
 		"food": {
 			"stamina": 20,
@@ -29,7 +29,7 @@
 			}
 		},
 		"plantable": {
-			"crop": "potato"
+			"crop": "henbane"
 		}
 	}
 }

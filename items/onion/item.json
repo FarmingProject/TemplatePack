@@ -1,7 +1,7 @@
 {
-	"id": "carrot",
-	"name": "carrot.name",
-	"description": "carrot.description",
+	"id": "onion",
+	"name": "Onion",
+	"description": "Often ground up to be used as a spice and has some health benefits. Eating too much could make your breath stinky. ",
 	"attributes": {
 		"food": {
 			"stamina": 20,
@@ -29,7 +29,7 @@
 			}
 		},
 		"plantable": {
-			"crop": "carrot"
+			"crop": "onion"
 		}
 	}
 }

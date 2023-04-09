@@ -1,0 +1,35 @@
+{
+	"id": "lambsquarter",
+	"name": "Lambsquarter",
+	"description": "Often used in salads. When chewed into a paste, it can be used to help with minor injuries and bug bites.",
+	"attributes": {
+		"food": {
+			"stamina": 10,
+			"bonus": {
+				"changes": "stamina",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"sellable": {
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"foragable": {
+			"spawnWeight": 5,
+			"type": "plant"
+		}
+	}
+}

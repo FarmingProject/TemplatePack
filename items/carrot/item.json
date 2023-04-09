@@ -1,7 +1,7 @@
 {
 	"id": "carrot",
-	"name": "carrot.name",
-	"description": "carrot.description",
+	"name": "Carrot",
+	"description": "A common vegetable. It’s said to have some health benefits, one of them being better vision. ",
 	"attributes": {
 		"food": {
 			"stamina": 20,

@@ -1,0 +1,35 @@
+{
+	"id": "dandelion",
+	"name": "Dandelion",
+	"description": "A fluffy flower that breaks apart when it’s gently blown upon. Blow on it and make a wish! The roots of it are said to have some medicinal properties.",
+	"attributes": {
+		"food": {
+			"stamina": 10,
+			"bonus": {
+				"changes": "stamina",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"sellable": {
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"foragable": {
+			"spawnWeight": 5,
+			"type": "plant"
+		}
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"id": "potato",
-	"name": "potato.name",
-	"description": "potato.description",
+	"name": "Potato",
+	"description": "A tasty vegetable that’s great for boosting immune systems.",
 	"attributes": {
 		"food": {
 			"stamina": 20,

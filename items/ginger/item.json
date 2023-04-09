@@ -1,7 +1,7 @@
 {
-	"id": "potato",
-	"name": "potato.name",
-	"description": "potato.description",
+	"id": "ginger",
+	"name": "Ginger Root",
+	"description": "Often used in teas and dishes. It’s said that just eating it will make you happy and will improve your health. ",
 	"attributes": {
 		"food": {
 			"stamina": 20,
@@ -29,7 +29,7 @@
 			}
 		},
 		"plantable": {
-			"crop": "potato"
+			"crop": "ginger"
 		}
 	}
 }

@@ -1,7 +1,7 @@
 {
-	"id": "carrot",
-	"name": "carrot.name",
-	"description": "carrot.description",
+	"id": "nightshade",
+	"name": "Nightshade Berries",
+	"description": "A gorgeous flower that has fruit. The berries may look delicious, but you really, really shouldn’t eat them… They contain a strong poison. ",
 	"attributes": {
 		"food": {
 			"stamina": 20,
@@ -29,7 +29,7 @@
 			}
 		},
 		"plantable": {
-			"crop": "carrot"
+			"crop": "nightshade"
 		}
 	}
 }

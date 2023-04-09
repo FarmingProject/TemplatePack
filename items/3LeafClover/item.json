@@ -1,0 +1,35 @@
+{
+	"id": "3LeafClover",
+	"name": "3 Leaf Clover",
+	"description": "Often used for recovering from a cold, and is said to help ward off evil spirits.",
+	"attributes": {
+		"food": {
+			"stamina": 10,
+			"bonus": {
+				"changes": "stamina",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"sellable": {
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"foragable": {
+			"spawnWeight": 5,
+			"type": "plant"
+		}
+	}
+}

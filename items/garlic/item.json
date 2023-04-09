@@ -1,7 +1,7 @@
 {
-	"id": "carrot",
-	"name": "carrot.name",
-	"description": "carrot.description",
+	"id": "garlic",
+	"name": "Garlic",
+	"description": "A common ingredient used in many foods to add additional flavor. Be careful not to eat too much or it’ll affect your breath. Said to have some health benefits. ",
 	"attributes": {
 		"food": {
 			"stamina": 20,
@@ -29,7 +29,7 @@
 			}
 		},
 		"plantable": {
-			"crop": "carrot"
+			"crop": "garlic"
 		}
 	}
 }

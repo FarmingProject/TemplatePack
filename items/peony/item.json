@@ -1,7 +1,7 @@
 {
-	"id": "potato",
-	"name": "potato.name",
-	"description": "potato.description",
+	"id": "peony",
+	"name": "Peony",
+	"description": "A pretty pink flower that smells great. It can also be used to help with pain.",
 	"attributes": {
 		"food": {
 			"stamina": 20,
@@ -29,7 +29,7 @@
 			}
 		},
 		"plantable": {
-			"crop": "potato"
+			"crop": "peony"
 		}
 	}
 }
