@@ -2,27 +2,61 @@
 	{
 		"ingredients": [
 			{
-				"item": "carrot",
+				"item": "beetle",
 				"quantity": 1
 			},
 			{
-				"item": "ginger",
+				"item": "rolyPoly",
+				"quantity": 1
+			},
+			{
+				"item": "pumpkin",
 				"quantity": 1
 			}
 		],
-		"output": "carrot_potion"
+		"output": "strengthPotion"
 	},
 	{
 		"ingredients": [
 			{
+				"item": "rolyPoly",
+				"quantity": 1
+			},
+			{
+				"item": "potato",
+				"quantity": 1
+			},
+			{
+				"item": "pumpkin",
+				"quantity": 1
+			}
+		],
+		"output": "fertilizingPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "onion",
+				"quantity": 1
+			},
+			{
 				"item": "carrot",
 				"quantity": 1
 			},
 			{
-				"item": "ginger",
+				"item": "potato",
 				"quantity": 1
 			}
 		],
-		"output": "carrot_potion"
+		"output": "soup"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "catnip",
+				"quantity": 2
+			}
+		],
+		"output": "Catnip"
 	}
 ]
