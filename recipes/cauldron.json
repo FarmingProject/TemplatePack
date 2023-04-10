@@ -408,5 +408,18 @@
 			}
 		],
 		"output": "nightVisionPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "ragworts",
+				"quantity": 1
+			},
+			{
+				"item": "rolyPoly",
+				"quantity": 1
+			}
+		],
+		"output": "insectRepellantPotion"
 	}
 ]
