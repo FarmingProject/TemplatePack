@@ -57,6 +57,356 @@
 				"quantity": 2
 			}
 		],
-		"output": "Catnip"
+		"output": "catnip"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "ivy",
+				"quantity": 1
+			},
+			{
+				"item": "purslane",
+				"quantity": 1
+			}
+		],
+		"output": "invisiblePotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "chicory",
+				"quantity": 1
+			},
+			{
+				"item": "lambsquarter",
+				"quantity": 1
+			},
+			{
+				"item": "clover",
+				"quantity": 1
+			}
+		],
+		"output": "bubblyPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "wildViolets",
+				"quantity": 1
+			},
+			{
+				"item": "lambsquarter",
+				"quantity": 1
+			},
+			{
+				"item": "3LeafClover",
+				"quantity": 1
+			}
+		],
+		"output": "rainyPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "cayenne",
+				"quantity": 1
+			},
+			{
+				"item": "potato",
+				"quantity": 1
+			},
+			{
+				"item": "pumpkin",
+				"quantity": 1
+			}
+		],
+		"output": "explosivePotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "cayenne",
+				"quantity": 1
+			},
+			{
+				"item": "yarrow",
+				"quantity": 1
+			},
+			{
+				"item": "creepingCharlie",
+				"quantity": 1
+			}
+		],
+		"output": "spicyPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "nightshade",
+				"quantity": 1
+			},
+			{
+				"item": "henbane",
+				"quantity": 1
+			}
+		],
+		"output": "poisonPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "carrot",
+				"quantity": 1
+			},
+			{
+				"item": "wildMustard",
+				"quantity": 1
+			},
+			{
+				"item": "purslane",
+				"quantity": 1
+			}
+		],
+		"output": "instaLeanPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "pumpkin",
+				"quantity": 1
+			},
+			{
+				"item": "potato",
+				"quantity": 1
+			},
+			{
+				"item": "whiteClover",
+				"quantity": 1
+			}
+		],
+		"output": "instaLargePotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "rolyPoly",
+				"quantity": 1
+			},
+			{
+				"item": "henbane",
+				"quantity": 1
+			}
+		],
+		"output": "nauseaPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "dandelion",
+				"quantity": 1
+			},
+			{
+				"item": "ladybug",
+				"quantity": 1
+			},
+			{
+				"item": "3LeafClover",
+				"quantity": 1
+			}
+		],
+		"output": "goodFortunePotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "ladybug",
+				"quantity": 1
+			},
+			{
+				"item": "ginger",
+				"quantity": 1
+			},
+			{
+				"item": "peony",
+				"quantity": 1
+			}
+		],
+		"output": "lovePotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "madrake",
+				"quantity": 1
+			},
+			{
+				"item": "giner",
+				"quantity": 1
+			},
+			{
+				"item": "basil",
+				"quantity": 1
+			}
+		],
+		"output": "rejuvenatingPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "cricket",
+				"quantity": 1
+			},
+			{
+				"item": "whiteClover",
+				"quantity": 1
+			},
+			{
+				"item": "butterflies",
+				"quantity": 1
+			}
+		],
+		"output": "speedPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "fireflies",
+				"quantity": 1
+			},
+			{
+				"item": "ginger",
+				"quantity": 1
+			},
+			{
+				"item": "mandrake",
+				"quantity": 1
+			}
+		],
+		"output": "sleepReplacementPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "purslane",
+				"quantity": 1
+			},
+			{
+				"item": "wildMustard",
+				"quantity": 1
+			},
+			{
+				"item": "dandelion",
+				"quantity": 1
+			}
+		],
+		"output": "salad"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "ragworts",
+				"quantity": 1
+			},
+			{
+				"item": "basil",
+				"quantity": 1
+			}
+		],
+		"output": "detoxPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "ivy",
+				"quantity": 1
+			},
+			{
+				"item": "yarrow",
+				"quantity": 1
+			},
+			{
+				"item": "clover",
+				"quantity": 1
+			}
+		],
+		"output": "coldMedicinePotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "fireflies",
+				"quantity": 1
+			},
+			{
+				"item": "dandelion",
+				"quantity": 1
+			},
+			{
+				"item": "butterflies",
+				"quantity": 1
+			}
+		],
+		"output": "glowPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "peony",
+				"quantity": 1
+			},
+			{
+				"item": "wildViolets",
+				"quantity": 1
+			},
+			{
+				"item": "butterflies",
+				"quantity": 1
+			}
+		],
+		"output": "fragancePotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "mandrake",
+				"quantity": 1
+			},
+			{
+				"item": "henbane",
+				"quantity": 1
+			},
+			{
+				"item": "ivy",
+				"quantity": 1
+			}
+		],
+		"output": "sickPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "catnip",
+				"quantity": 1
+			},
+			{
+				"item": "peony",
+				"quantity": 1
+			}
+		],
+		"output": "sleepyPotion"
+	},
+	{
+		"ingredients": [
+			{
+				"item": "carrots",
+				"quantity": 1
+			},
+			{
+				"item": "purslane",
+				"quantity": 1
+			}
+		],
+		"output": "nightVisionPotion"
 	}
 ]
