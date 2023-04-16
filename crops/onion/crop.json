@@ -1,20 +1,20 @@
 {
-	"id": "carrot",
+	"id": "onion",
 	"drops": [
 		{
-			"item": "carrot",
+			"item": "onion",
 			"chance": 1
 		},
 		{
-			"item": "carrot",
+			"item": "onion",
 			"chance": 0.5
 		},
 		{
-			"item": "carrot",
+			"item": "onion",
 			"chance": 0.25
 		},
 		{
-			"item": "carrot",
+			"item": "onion",
 			"chance": 0.125
 		}
 	],

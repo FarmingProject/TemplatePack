@@ -1,20 +1,20 @@
 {
-	"id": "carrot",
+	"id": "garlic",
 	"drops": [
 		{
-			"item": "carrot",
+			"item": "garlic",
 			"chance": 1
 		},
 		{
-			"item": "carrot",
+			"item": "garlic",
 			"chance": 0.5
 		},
 		{
-			"item": "carrot",
+			"item": "garlic",
 			"chance": 0.25
 		},
 		{
-			"item": "carrot",
+			"item": "garlic",
 			"chance": 0.125
 		}
 	],
