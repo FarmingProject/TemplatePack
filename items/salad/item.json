@@ -1,0 +1,34 @@
+{
+	"id": "salad",
+	"name": "Salad",
+	"description": "A healthy bunch of leaves in a bottle. Nutritious and delicious. Consuming this will boost energy levels.",
+	"attributes": {
+		"food": {
+			"stamina": 10,
+			"bonus": {
+				"changes": "stamina",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"sellable": {
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"consumable": {
+			"type": "potion"
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"id": "lovePotion",
+	"name": "Love Potion",
+	"description": "Not ethical, but that’s not your problem. After consumption, the person will immediately fall in love with the person they see first.",
+	"attributes": {
+		"food": {
+			"stamina": 10,
+			"bonus": {
+				"changes": "stamina",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"sellable": {
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"consumable": {
+			"type": "potion"
+		}
+	}
+}

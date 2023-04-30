@@ -1,0 +1,34 @@
+{
+	"id": "invisiblePotion",
+	"name": "Invisible Potion",
+	"description": "Drinking this will turn a person invisible until they are touched by someone or something.",
+	"attributes": {
+		"food": {
+			"stamina": 10,
+			"bonus": {
+				"changes": "stamina",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"sellable": {
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"consumable": {
+			"type": "potion"
+		}
+	}
+}

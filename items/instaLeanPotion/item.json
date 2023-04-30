@@ -1,0 +1,34 @@
+{
+	"id": "instaLeanPotion",
+	"name": "Insta Lean Potion",
+	"description": "Having issues with weight? Well, this is the solution. Drink it and become lean instantly!",
+	"attributes": {
+		"food": {
+			"stamina": 10,
+			"bonus": {
+				"changes": "stamina",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"sellable": {
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"consumable": {
+			"type": "potion"
+		}
+	}
+}

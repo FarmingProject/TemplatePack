@@ -57,7 +57,7 @@
 				"quantity": 2
 			}
 		],
-		"output": "catnip"
+		"output": "catnipPotion"
 	},
 	{
 		"ingredients": [
@@ -420,6 +420,6 @@
 				"quantity": 1
 			}
 		],
-		"output": "insectRepellantPotion"
+		"output": "bugRepellantPotion"
 	}
 ]

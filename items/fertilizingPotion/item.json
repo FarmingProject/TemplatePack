@@ -1,0 +1,34 @@
+{
+	"id": "fertilizingPotion",
+	"name": "Fertilizing Potion",
+	"description": "This shouldn’t be consumed, but used on plants. It will increase the quality of a crop.",
+	"attributes": {
+		"food": {
+			"stamina": 10,
+			"bonus": {
+				"changes": "stamina",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"sellable": {
+			"value": 10,
+			"bonus": {
+				"changes": "value",
+				"property": "quality",
+				"values": {
+					"1": 15,
+					"2": 20,
+					"3": 30
+				}
+			}
+		},
+		"consumable": {
+			"type": "potion"
+		}
+	}
+}
